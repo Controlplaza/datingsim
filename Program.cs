@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace datingsimverz1
 {
@@ -20,12 +17,16 @@ namespace datingsimverz1
              
              
              */
+
+           
+
+
             bool sim = true;
             Char firstanswr;
             Console.WriteLine("Dating simulator build: 0.5\t\n");
             Console.WriteLine("Start game\nstart:s\nquit:q");
             firstanswr = Console.ReadKey().KeyChar;
-            if(firstanswr == 's' || firstanswr == 'S')
+            if (firstanswr == 's' || firstanswr == 'S')
             {
                 sim = true;
             }
@@ -37,7 +38,7 @@ namespace datingsimverz1
             {
                 Console.WriteLine("\nthats not an authorized  answer");
             }
-         
+
             Console.ReadKey();
             Console.ReadLine();
         }
