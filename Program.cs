@@ -8,6 +8,7 @@ namespace datingsimverz1
 
         static void Main(string[] args)
         {
+            Console.Clear();
             /*
              main menu to start game
 
@@ -48,6 +49,7 @@ namespace datingsimverz1
             {
                 do
                 {
+                    Console.Clear();
                     Console.WriteLine("\n_______|C-Team dating simulator|_______");
                     Console.WriteLine("_________________________________________");
                     Console.WriteLine("   ___________________________________");
