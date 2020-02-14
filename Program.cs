@@ -38,6 +38,15 @@ namespace datingsimverz1
             {
                 Console.WriteLine("\nthats not an authorized  answer");
             }
+            do
+	{
+                Console.WriteLine("_______|C-Team dating simulator|_______");
+                 Console.WriteLine("_________________________________________");
+                Console.WriteLine("   ___________________________________");
+                break;
+                
+
+	} while (sim);
 
             Console.ReadKey();
             Console.ReadLine();
