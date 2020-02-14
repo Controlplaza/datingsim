@@ -49,7 +49,7 @@ namespace datingsimverz1
                     Console.WriteLine("\n_______|C-Team dating simulator|_______");
                     Console.WriteLine("_________________________________________");
                     Console.WriteLine("   ___________________________________");
-                    _ = Console.ReadLine();
+                       Console.ReadLine();
 
 
                     // break;
