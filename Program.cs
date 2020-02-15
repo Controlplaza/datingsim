@@ -26,8 +26,10 @@ namespace datingsimverz1
             bool sim = true;
             Char firstanswr;
             Console.WriteLine("Dating simulator build: 0.5\t\n");
+
             Console.WriteLine("\x2AStart game\x2A\n________\nstart:s\n|______|\nquit:q\n|______|");
        
+
         
             firstanswr = Console.ReadKey().KeyChar;
             //if (firstanswr == 's' || firstanswr == 'S')
