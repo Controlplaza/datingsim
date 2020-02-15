@@ -26,8 +26,8 @@ namespace datingsimverz1
             bool sim = true;
             Char firstanswr;
             Console.WriteLine("Dating simulator build: 0.5\t\n");
-            Console.WriteLine("Start game\nstart:s\nquit:q");
-            Console.WriteLine(" digger this is a test");
+            Console.WriteLine("\x2AStart game\x2A\n________\nstart:s\n|______|\nquit:q\n|______|");
+       
         
             firstanswr = Console.ReadKey().KeyChar;
             //if (firstanswr == 's' || firstanswr == 'S')
@@ -43,6 +43,8 @@ namespace datingsimverz1
             else if (firstanswr != 's' && firstanswr != 'S')
             {
                 Console.WriteLine("\nthats not an authorized  answer");
+                      sim = false;
+               
                 Console.ReadKey();
             }
             if (sim)
@@ -53,7 +55,7 @@ namespace datingsimverz1
                     Console.WriteLine("\n_______|C-Team dating simulator|_______");
                     Console.WriteLine("_________________________________________");
                     Console.WriteLine("   ___________________________________");
-                       Console.ReadLine();
+                    Console.ReadLine();
 
 
                     // break;
@@ -61,8 +63,8 @@ namespace datingsimverz1
 
                 } while (sim);
 
-                _ = Console.ReadKey();
-                _ = Console.ReadLine();
+               Console.ReadKey();
+               Console.ReadLine();
                 //anthony is now on the repository
 
 
